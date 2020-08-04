@@ -387,7 +387,7 @@ textarea{
     position: relative;
 }
 
-.cover{
+/* .cover{
     position: absolute;
     background-color: #00c8ff62;
     top: 0;
@@ -397,7 +397,7 @@ textarea{
 }
 .cover:hover{
     display: none;
-}
+} */
 
 .footer{
     width: 100%;
