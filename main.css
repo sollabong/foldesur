@@ -22,7 +22,7 @@ a{
     top:0;
     height: 60px;
     width: 100%;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 0px 5px 0px;
     background-color: rgba(255, 255, 255, 0.87);
     overflow: hidden;
     z-index: 200;
@@ -36,15 +36,13 @@ a{
 .navbutton{
     background-color: #ff9500;
     color: white;
-    font-weight: 700;
     border: none;
     border-radius: 10px;
     padding: 10px 20px 10px 20px;
     text-align: center;
     text-decoration: none;
-    float: right;
-    margin-right: 40px;
-    vertical-align: middle;
+    margin-right: 30px;
+    font-size: 1.3rem;
 }
 
 .navbutton:hover{
@@ -113,7 +111,7 @@ a{
     margin-top: 20px;
     background-color: white;
     width: 60%;
-    padding: 5px;
+    padding: 5px 0px 5px 0px;
     text-align: center;
 }
 
@@ -175,16 +173,17 @@ textarea{
     flex-direction: row;
     outline: 0;
     resize: none;
-
+    font-family: 'Raleway', sans-serif;
 }
 
 .button{
     background-color: #ff9500;
     color: white;
-    font-weight: 700;
+    font-size: 1.3rem;
     border: none;
     border-radius: 10px;
     padding: 20px 50px 20px 50px;
+    font-family: 'Raleway', sans-serif;
     width: 100%;
     margin-top: 40px;
 }
@@ -286,8 +285,7 @@ textarea{
 
     transform: scale(1.1);
     transition: all 0.2s ease-in-out;
-    filter: grayscale(0%);
-    
+    filter: grayscale(0%); 
 }
 
 .desccont{
@@ -338,17 +336,18 @@ textarea{
 .erdekel{
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: auto;
+    margin-top: 20px;
 }
 
 .describe .phone2{
     text-align: center;
-    color: #0d94b9;
+    color: rgb(85, 85, 85);
     font-size: 2rem;
-
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
     font-weight: 700;
 }
 
@@ -358,7 +357,7 @@ textarea{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     font-size: 1.5rem;
     cursor: pointer;
     text-decoration: none;
@@ -380,28 +379,23 @@ textarea{
     width: 190px;
 }
 
+.phoneicon{
+    color: rgb(85, 85, 85);
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
 .gmap{
     height: 400;
-    background-color: #00c8ff;
+    background-color: #ff9500;
     width: 100%;
     position: relative;
 }
 
-/* .cover{
-    position: absolute;
-    background-color: #00c8ff62;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-.cover:hover{
-    display: none;
-} */
-
 .footer{
     width: 100%;
-    background-color: #00c8ff;
+    background-color: #ff9500;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -445,7 +439,7 @@ textarea{
     }
 
     .price{
-        font-size: 2rem;
+        font-size: 1.8rem;
         width: 100%;
     }
 
@@ -483,17 +477,28 @@ textarea{
         justify-content: center;
         align-items: center;
     }
+
    .describe{
-        width:90%;
+        width:100%;
     }
+
     .describe .button{
-
+        padding: 20px 0px 20px 0px;
         font-size: 1rem; 
+        width: 90%;
     }
 
-    .describe .phone2{
-        font-size: 1.5rem;
+    .describe a{
+        width: 100%;
     }
+
+    .button{
+        font-size: 1rem;
+    }
+    .navbutton{
+        font-size: 1rem;
+    }
+
     .cimer img{
         width: 100px;
     }
